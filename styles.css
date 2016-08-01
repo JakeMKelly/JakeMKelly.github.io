@@ -1,3 +1,69 @@
 body {
 	background-color: rgb(153, 153, 102);
+	font-family: Helvetica;
+}
+
+#caption {
+	margin-left: 35px;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+a:visited {
+	text-decoration: none;
+	color: green;
+}
+
+h1, h2, h3, h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+blockquote {
+	color: white;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-style: italic;
+    background-image: url(https://cdn-co.milespartnership.com/sites/default/master/files/CO_PhotoProject2007_0007_0_0.jpg);
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	overflow: hidden;
+    background-color: rgb(153, 153, 102)
+}
+
+#intro{
+	width: 500px;
+	padding: 2px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2px;
+}
+
+#location-list {
+	padding: 2px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2px;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:  Tahoma, Verdana, Segoe, sans-serif
+}
+
+th td{
+	font-family:  Tahoma, Verdana, Segoe, sans-serif
+}
+
+
+@media screen and (max-width: 500px) {
+  .big-pic {
+  visibility: hidden;   
+  }
 }
